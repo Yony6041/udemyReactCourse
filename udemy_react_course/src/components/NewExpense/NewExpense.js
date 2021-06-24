@@ -1,7 +1,6 @@
 import React from 'react';
-
 import ExpenseForm from './ExpenseForm';
-import './NewExpense.css';
+import styles from  './NewExpense.module.css';
 
 const NewExpense = (props) => {
   const saveExpenseDataHandler = (enteredExpenseData) => {
@@ -12,7 +11,7 @@ const NewExpense = (props) => {
     props.onAddExpense(expenseData);
   }
   return (
-    <div className='new-expense'>
+    <div className={styles.new_expense}>
       <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
     </div>
   );
