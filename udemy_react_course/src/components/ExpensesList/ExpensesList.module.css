@@ -1,0 +1,22 @@
+.expenses_list {
+  list-style: none;
+  padding: 0;
+}
+
+.expenses_list__fallback {  
+  color:white;
+  text-align:center;
+}
+
+
+
+/* 
+list-style modifies the figure beside the items in the list
+you can even call an svg WTF!
+ex: 
+* 1  - 1
+* 2  - 2
+* 3  - 3
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/list-style 
+*/
